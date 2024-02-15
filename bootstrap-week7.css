@@ -17,7 +17,7 @@
 }
 
 .jumbotron {
-  background: url('./music-pic5.jpeg') no-repeat center center;
+  background: url("./music-pic5.jpeg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,7 +35,7 @@
 }
 
 .apply-button:hover {
-  background: #AF9FFF;
+  background: #af9fff;
 }
 
 .apply-button-jumbotron {
@@ -47,7 +47,7 @@
 }
 
 .apply-button-jumbotron:hover {
-  background: #AF9FFF;
+  background: #af9fff;
 }
 
 .apply-button-booking {
@@ -59,19 +59,23 @@
 }
 
 .apply-button-booking:hover {
-  background: #AF9FFF;
+  background: #af9fff;
 }
 
 .card-emphasize {
-  color: #AF9FFF;
+  color: #af9fff;
+}
+
+.headphone-image-cont {
+  overflow: hidden;
 }
 
 .headphone-image {
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .headphone-image:hover {
-  transform: scale(.99);
+  transform: scale(1.1);
 }
 
 .card-style {
@@ -88,7 +92,7 @@
 .apply-button-learnmore:hover {
   /* background-color: initial; */
   text-decoration: underline;
-  background: #AF9FFF;
+  background: #af9fff;
 }
 
 .second-section {
@@ -103,17 +107,17 @@
 }
 
 .image-video {
-  margin-left: -.28em;
+  margin-left: -0.28em;
 }
 
 .image-video-second {
-  margin-left: -.1em;
+  margin-left: -0.1em;
   z-index: 1;
   position: relative;
 }
 
 .ns {
-  margin-left: -.3em;
+  margin-left: -0.3em;
   z-index: -1;
 }
 
@@ -132,7 +136,7 @@
 
 .card-img {
   border-radius: 2em;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .card-img:hover {
@@ -153,7 +157,7 @@
 
 .lead-text {
   font-size: 6rem;
-  padding-top: .8em;
+  padding-top: 0.8em;
 }
 
 .testimonial-header {
@@ -166,12 +170,12 @@
 }
 
 .testimonial-card {
-  width: 16rem; 
-  border-radius: 4em; 
-  height: 32rem; 
-  background-color: #f4f3ec; 
+  width: 16rem;
+  border-radius: 4em;
+  height: 32rem;
+  background-color: #f4f3ec;
   border: none;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .testimonial-card:hover {
@@ -179,8 +183,8 @@
 }
 
 .testimonial-img {
-  width: 80px; 
-  height: 80px; 
+  width: 80px;
+  height: 80px;
   margin: 1em 1em;
 }
 
@@ -195,7 +199,7 @@
 
 .accordion-block {
   font-size: 2rem;
-  color: #AF9FFF;
+  color: #af9fff;
 }
 
 .icon {
@@ -204,6 +208,6 @@
 }
 
 footer {
-  background: #AF9FFF;
+  background: #af9fff;
   padding: 2em 4em;
 }
